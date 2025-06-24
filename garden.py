@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 # Configurable hours
 START_HOUR = 9
 END_HOUR = 17
-WAIT_INTERVAL = 60  # seconds between cycles
+WAIT_INTERVAL = 750  # seconds between cycles
 running = True
 
 def is_within_active_hours():
