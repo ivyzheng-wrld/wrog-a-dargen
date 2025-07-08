@@ -20,12 +20,12 @@ def key_hold_loop():
         if is_within_active_hours():
             print(f"[{datetime.now().strftime('%H:%M:%S')}] Holding 'A'")
             keyboard.press('a')
-            time.sleep(3)
+            time.sleep(1)
             keyboard.release('a')
 
             print(f"[{datetime.now().strftime('%H:%M:%S')}] Holding 'D'")
             keyboard.press('d')
-            time.sleep(3)
+            time.sleep(1)
             keyboard.release('d')
         else:
             print(f"[{datetime.now().strftime('%H:%M:%S')}] Outside working hours")
